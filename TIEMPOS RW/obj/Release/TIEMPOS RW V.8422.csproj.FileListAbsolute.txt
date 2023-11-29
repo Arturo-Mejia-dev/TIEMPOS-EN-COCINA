@@ -1,0 +1,238 @@
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe.config
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.pdb
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Design.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\EnvDTE.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\stdole.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\Microsoft.MSXML.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.ConexServ.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Form1.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Login.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Properties.Resources.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.GenerateResource.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\RdlCompile.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\RdlCompile.compiled
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CoreCompileInputs.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CopyComplete
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.exe
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.pdb
+C:\Users\Abel\source\repos\TIEMPOS RW - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csprojAssemblyReference.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe.config
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.pdb
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Design.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\EnvDTE.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\stdole.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.MSXML.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.ConexServ.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Form1.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Login.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Properties.Resources.resources
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.GenerateResource.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\RdlCompile.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\RdlCompile.compiled
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CoreCompileInputs.cache
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CopyComplete
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.exe
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.pdb
+C:\Users\Abel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Limpieza.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe.config
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.exe
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\TIEMPOS RW.pdb
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Design.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\EnvDTE.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\stdole.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\Microsoft.MSXML.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.AssemblyReference.cache
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.SuggestedBindingRedirects.cache
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.ConexServ.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Form1.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Limpieza.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Login.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS_RW.Properties.Resources.resources
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CopyComplete
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.exe
+C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.pdb
