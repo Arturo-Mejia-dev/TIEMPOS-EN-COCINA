@@ -70,7 +70,7 @@
                       <Value>=Fields!STATUS.Value</Value>
                     </SortExpression>
                   </SortExpressions>
-                  <Label>=IIf(Fields!STATUS.Value="F","OUT TIME","IN TIME")</Label>
+                  <Label>=IIf(Fields!STATUS.Value="F","OUT TIME",IIf(Fields!STATUS.Value="T","IN TIME","OFFLINE"))</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
@@ -98,7 +98,7 @@
                         <Visible>true</Visible>
                       </ChartDataLabel>
                       <Style>
-                        <Color>=IIF(Fields!STATUS.Value="F","Red","LimeGreen")</Color>
+                        <Color>=IIF(Fields!STATUS.Value="F","Red",IIF(Fields!STATUS.Value="T","LimeGreen","SlateBlue"))</Color>
                       </Style>
                       <ChartMarker>
                         <Style />
@@ -1159,7 +1159,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!MINUTOS.Value</Value>
+                                  <Value>=IIf(Fields!MINUTOS.Value = -1,"NA",Fields!MINUTOS.Value)</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -1180,6 +1180,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1191,10 +1192,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIf(Fields!MINUTOS.Value &lt;= 10,"0-10",
+                                  <Value>=IIf(Fields!MINUTOS.Value &lt; 0,"SIN CONEXIÓN",
+IIf(Fields!MINUTOS.Value &lt;= 10 AND Fields!MINUTOS.Value &gt;=1 ,"0-10",
 IIf(Fields!MINUTOS.Value &gt;= 11 AND Fields!MINUTOS.Value &lt;= 15,"11-15",
 IIf(Fields!MINUTOS.Value &gt;= 16 AND Fields!MINUTOS.Value &lt;= 20,"16-20",
-IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-30"))))</Value>
+IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-30")))))</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -1226,7 +1228,7 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIf(Fields!STATUS.Value ="F","OUT TIME","IN TIME")</Value>
+                                  <Value>=IIf(Fields!STATUS.Value="F","OUT TIME",IIf(Fields!STATUS.Value="T","IN TIME","OFFLINE"))</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -1339,6 +1341,75 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
+                  <Height>0.6cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Sum(IIf(Fields!MINUTOS.Value = -1,1,0))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=FormatPercent((Sum(IIf(Fields!MINUTOS.Value = -1,1,0)))/Count(Fields!IDCOMANDA.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
                   <Height>0.82679cm</Height>
                   <TablixCells>
                     <TablixCell>
@@ -1350,7 +1421,7 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(IIf(Fields!MINUTOS.Value &lt;= 10,1,0))</Value>
+                                  <Value>=Sum(IIf(Fields!MINUTOS.Value &lt;= 10 and Fields!MINUTOS.Value &gt;= 1,1,0))</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -1382,7 +1453,7 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=FormatPercent((Sum(IIf(Fields!MINUTOS.Value &lt;= 10,1,0)))/Count(Fields!IDCOMANDA.Value))</Value>
+                                  <Value>=FormatPercent((Sum(IIf(Fields!MINUTOS.Value &lt;= 10 and Fields!MINUTOS.Value &gt;= 1,1,0)))/Count(Fields!IDCOMANDA.Value))</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -1868,6 +1939,43 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
                       <TablixHeader>
                         <Size>2.89687cm</Size>
                         <CellContents>
+                          <Textbox Name="Textbox6">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>SIN CONEXIÓN</Value>
+                                    <Style>
+                                      <FontWeight>Bold</FontWeight>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style>
+                                  <TextAlign>Center</TextAlign>
+                                </Style>
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox6</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                    </TablixMember>
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>2.89687cm</Size>
+                        <CellContents>
                           <Textbox Name="Textbox58">
                             <CanGrow>true</CanGrow>
                             <KeepTogether>true</KeepTogether>
@@ -2100,8 +2208,8 @@ IIf(Fields!MINUTOS.Value &gt;= 21 AND Fields!MINUTOS.Value &lt;= 25,"21-25","26-
             <DataSetName>DataSet1</DataSetName>
             <Top>9.31016cm</Top>
             <Left>3.75391cm</Left>
-            <Height>5.7875cm</Height>
-            <Width>8.69063cm</Width>
+            <Height>6.38753cm</Height>
+            <Width>8.69061cm</Width>
             <ZIndex>3</ZIndex>
             <Style>
               <Border>

@@ -9,13 +9,14 @@ using Microsoft.VisualBasic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
-
+using System.IO;
 
 namespace TIEMPOS_RW
 {
     public partial class Form1 : Form
     {
-
+        public DateTime horadesconexion; 
+        public DateTime horareconexion;
         public int al, apl = 0, lim =0;
         public string Fecha1 { get; set; }
         public string Fecha2 { get; set; }
@@ -127,10 +128,6 @@ namespace TIEMPOS_RW
                 //variable SqlDataReader para leer los datos
                 SqlDataReader dr;
 
-
-
-
-
                 if (data.Tables[0].Rows.Count > 0 || data.Tables[0].Rows.Count != NoDatos)
                 {
                     comando.Connection = conexion;
@@ -178,6 +175,18 @@ namespace TIEMPOS_RW
                     MuestraDatos.ClearSelection();
                     MuestraDatos.CurrentCell = null;
                     TiempoPromedio();
+                    string desc = Properties.Settings.Default.desconectado;
+                    string horadesc = Properties.Settings.Default.Horadesconexion; 
+                    if (Properties.Settings.Default.desconectado.Equals("1"))
+                    {
+                        Properties.Settings.Default.desconectado = "0";
+                        horareconexion = DateTime.Now;
+                        horadesconexion = DateTime.Parse(Properties.Settings.Default.Horadesconexion);
+                        MatarComandasD();
+                        Properties.Settings.Default.Save();
+
+                    }
+
                     MatarComandas();
                     alarma();
                 }
@@ -185,11 +194,20 @@ namespace TIEMPOS_RW
             }
             catch (SqlException ex)
             {
-                pictureBoxReconectando.Visible = true;
+               pictureBoxReconectando.Visible = true;
                 labelReconectando.Visible = true;
                 timerActualiza.Stop();
                 timerReconecta.Start();
+                if (Properties.Settings.Default.desconectado.Equals("0")) 
+                {
+                    horadesconexion = DateTime.Now;
 
+                    Properties.Settings.Default.desconectado = "1";
+                    Properties.Settings.Default.Horadesconexion = horadesconexion.ToString();
+
+                    Properties.Settings.Default.Save();
+                }
+                     
             }
         }
         private void CambiaFechaSistema()
@@ -215,6 +233,90 @@ namespace TIEMPOS_RW
                     Application.Restart();
                 }
             }
+
+        }
+
+        public void MatarComandasD() 
+        {
+            SqlDataAdapter query = new SqlDataAdapter();
+
+            query.UpdateCommand = new SqlCommand(" UPDATE dbo.LISTACOCINA SET UDSRECIBIDAS=@Minutos,TEMPORAL = '' WHERE (UDSRECIBIDAS = 0) AND (HORA BETWEEN CONVERT(datetime, @FI , 120) AND CONVERT(datetime, @FF, 120));", conexion);
+
+            string FI = horadesconexion.ToString("yyyy-MM-dd HH:mm:ss");
+            string FF = horareconexion.ToString("yyyy-MM-dd HH:mm:ss");
+            query.UpdateCommand.Parameters.Add("@maxMinutos", SqlDbType.Int).Value = maxMin;
+            query.UpdateCommand.Parameters.Add("@Minutos", SqlDbType.Float).Value = -1;
+            query.UpdateCommand.Parameters.Add("@FI", SqlDbType.Char).Value = FI;
+            query.UpdateCommand.Parameters.Add("@FF", SqlDbType.Char).Value = FF;
+
+            conexion.Open();
+
+            try
+            {     
+              query.UpdateCommand.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {  
+               
+                // Contenido del archivo de texto
+                string contenido = "Hora desconexion :" + FI + " Hora reconexion: " + FF + "Exception: " + ex.Message.ToString();
+                // Escribe el contenido en el archivo
+                File.WriteAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "errormatarcomandas.txt"), contenido);
+            }
+
+            // Ruta actual de la aplicación
+            string rutaActual = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Nombre del archivo
+            string nombreArchivo = "log.txt";
+
+            // Ruta completa del archivo
+            string rutaCompleta = Path.Combine(rutaActual, nombreArchivo);
+
+            try
+            {
+               
+                // Consulta SQL
+                string querycomandas = "SELECT * FROM dbo.LISTACOCINA WHERE CONVERT(DATE, HORA) = CONVERT(DATE, GETDATE());";
+
+                // Ruta del archivo de texto en la carpeta actual de la aplicación
+                string comandasPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "COMANDASHOY.txt");
+
+
+                    using (SqlCommand command = new SqlCommand(querycomandas, conexion))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            // Escribir los resultados en un archivo de texto
+                            using (StreamWriter writer = new StreamWriter(comandasPath))
+                            {
+                                while (reader.Read())
+                                {
+                                    for (int i = 0; i < reader.FieldCount; i++)
+                                    {
+                                        writer.Write(reader[i].ToString());
+                                        writer.Write("\t"); // Tabulador para separar los valores
+                                    }
+
+                                    writer.WriteLine(); // Nueva línea para cada fila
+                                }
+                                writer.WriteLine();
+                              writer.Write("Hora desconexion :" + FI + " Hora reconexion: " + FF); 
+                            }
+                        }
+                    }
+
+                conexion.Close(); 
+            }
+            catch (Exception ex)
+            {
+                conexion.Close();
+                // Contenido del archivo de texto
+                string contenido = "Hora desconexion :" + FI + " Hora reconexion: " + FF+ "Exception: "+ex.Message.ToString();
+                // Escribe el contenido en el archivo
+                File.WriteAllText(rutaCompleta, contenido);
+            }
+            
 
         }
         private void MatarComandas()
@@ -248,7 +350,10 @@ namespace TIEMPOS_RW
                 conexion.Close();
                 string StatusF;
                 conexion.Open();
+
+
                 SqlDataAdapter query = new SqlDataAdapter();
+                
                 query.UpdateCommand = new SqlCommand("UPDATE dbo.LISTACOCINA SET UDSRECIBIDAS=@Minutos, TEMPORAL=@Status WHERE (DATEDIFF(MINUTE, HORA, GETDATE()) >= @maxMinutos) and (UDSRECIBIDAS = 0)", conexion);
                 if (pPromedio < gMinutos)
                 {
@@ -587,7 +692,7 @@ namespace TIEMPOS_RW
             conexion.Open();
             consulta = new SqlDataAdapter();
             datos = new DataSet();
-            consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'WORKING'", conexion);
+            consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND NOT UDSRECIBIDAS = -1  AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'WORKING'", conexion);
             //consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>"+gMinutos+ ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = '2021' AND DATEPART(mm, HORA) = '12' AND DATEPART(dd, HORA) = '01') GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos+", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>"+gMinutos+", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'WORKING'", conexion);
 
             consulta.Fill(datos);
@@ -609,7 +714,7 @@ namespace TIEMPOS_RW
             conexion.Open();
             consulta = new SqlDataAdapter();
             datos = new DataSet();
-            consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'HOT'", conexion);
+            consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") AND NOT UDSRECIBIDAS = -1 GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'HOT'", conexion);
             //consulta.SelectCommand = new SqlCommand("select IIF(DATEDIFF(MINUTE, HORA, GETDATE())>"+gMinutos+ ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')), COUNT(DISTINCT IDCOMANDA) from dbo.LISTACOCINA where (DATEPART(yy, HORA) = '2021' AND DATEPART(mm, HORA) = '12' AND DATEPART(dd, HORA) = '01') GROUP BY IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos+", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) HAVING IIF(DATEDIFF(MINUTE, HORA, GETDATE())>"+gMinutos+", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING')) = 'HOT'", conexion);
 
             consulta.Fill(datos);
@@ -631,7 +736,7 @@ namespace TIEMPOS_RW
             conexion.Open();
             consulta = new SqlDataAdapter();
             datos = new DataSet();
-            consulta.SelectCommand = new SqlCommand("select COUNT(DISTINCT IDCOMANDA)  from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") AND (IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING'))!='DONE')", conexion);
+            consulta.SelectCommand = new SqlCommand("select COUNT(DISTINCT IDCOMANDA)  from dbo.LISTACOCINA where (DATEPART(yy, HORA) = " + DateTime.Now.Year + " AND DATEPART(mm, HORA) = " + DateTime.Now.Month + " AND DATEPART(dd, HORA) = " + DateTime.Now.Day + ") AND (IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos + ", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING'))!='DONE') AND NOT UDSRECIBIDAS = -1 ", conexion);
             //consulta.SelectCommand = new SqlCommand("select COUNT(DISTINCT IDCOMANDA)  from dbo.LISTACOCINA where (DATEPART(yy, HORA) = '2021' AND DATEPART(mm, HORA) = '12' AND DATEPART(dd, HORA) = '01') AND (IIF(DATEDIFF(MINUTE, HORA, GETDATE())>" + gMinutos+", IIF(UDSRECIBIDAS>0, 'DONE', 'HOT'), IIF(UDSRECIBIDAS>0, 'DONE', 'WORKING'))!='DONE')", conexion);
 
             consulta.Fill(datos);
@@ -746,7 +851,7 @@ namespace TIEMPOS_RW
 
                             Fc1 = fecha;
                             date1 = Convert.ToDateTime(fecha);
-                            date2 = date1.AddSeconds(3);
+                            date2 = date1.AddSeconds(5);
                             fecha = date2.ToString("yyyy-MM-dd HH:mm:ss.fff");
                             Fc2 = fecha;
                             //MessageBox.Show("Mesa> " + Mesa + "  Fecha1> " + Fc1 + "  fecha2> " + Fc2);
@@ -902,7 +1007,7 @@ namespace TIEMPOS_RW
 
                             Fc1 = fecha;
                             date1 = Convert.ToDateTime(fecha);
-                            date2 = date1.AddSeconds(1);
+                            date2 = date1.AddSeconds(5);
                             fecha = date2.ToString("yyyy-MM-dd HH:mm:ss.fff");
                             Fc2 = fecha;
                             //MessageBox.Show("Mesa> " + Mesa + " Fecha1> " + Fc1 + " Fecha2> " + Fc2);
@@ -1256,6 +1361,7 @@ namespace TIEMPOS_RW
                     Class2.ejecuta();
                 }
                 catch (SqlException ex) {
+
                     pictureBoxReconectando.Visible = true;
                     labelReconectando.Visible = true;
                     timerActualiza.Stop();

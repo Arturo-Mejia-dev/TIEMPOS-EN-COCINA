@@ -578,6 +578,7 @@
             this.label3.Size = new System.Drawing.Size(327, 33);
             this.label3.TabIndex = 28;
             this.label3.Text = "PRECOCCION: 40 KG";
+            this.label3.Visible = false;
             // 
             // Form1
             // 

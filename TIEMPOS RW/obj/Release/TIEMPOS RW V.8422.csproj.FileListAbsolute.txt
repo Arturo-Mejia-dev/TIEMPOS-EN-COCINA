@@ -236,3 +236,83 @@ C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\T
 C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CopyComplete
 C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.exe
 C:\Users\Daniel\source\repos\TIEMPOS RW - copia - copia\TIEMPOS RW\obj\Release\TIEMPOS RW.pdb
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\SqlServerTypes\x64\msvcr120.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\SqlServerTypes\x86\msvcr120.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\TIEMPOS RW.exe.config
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\TIEMPOS RW.exe
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\TIEMPOS RW.pdb
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.Design.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.SqlServer.Types.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\EnvDTE.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\stdole.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.OLE.Interop.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\Microsoft.MSXML.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\bin\Release\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.AssemblyReference.cache
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS_RW.ConexServ.resources
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS_RW.Form1.resources
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS_RW.Limpieza.resources
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS_RW.Login.resources
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS_RW.Properties.Resources.resources
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.GenerateResource.cache
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CoreCompileInputs.cache
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW V.8422.csproj.CopyComplete
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW.exe
+D:\repositorios git\TIEMPOS-EN-COCINA\TIEMPOS RW\obj\Release\TIEMPOS RW.pdb
